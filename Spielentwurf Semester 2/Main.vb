@@ -11,8 +11,9 @@ Imports System.Configuration
 Imports System.Diagnostics.Eventing.Reader
 
 
-Module Module1
+Module Main
     ' Konstanten zur Darstellung von verschiedenen Tastencodes
+    ' -- Hier ein Enum verwenden
     Const NO_KEY = 0
     Const CURSOR_LEFT = 1
     Const CURSOR_RIGHT = 2
@@ -31,6 +32,7 @@ Module Module1
 
 
     ' Konstanten für das Spielfeld und die Hindernisse
+    ' -- Hier auch ein Enum
     Const SPALTE_MAX = 79 ' Maximale Anzahl der Spalten im Spielfeld
     Const SPALTE_MIN = 0 ' Minimale Anzahl der Spalten im Spielfeld
     Const ZEILE_MAX = 24 ' Maximale Anzahl der Zeilen im Spielfeld
@@ -38,6 +40,7 @@ Module Module1
     Const GESCHW_SPIELFIGUR = 5 ' Konstante für die Geschwindigkeit der Spielfigur (Anzahl der Spalten pro Takt)
 
     'Globale Variablen für Schwierigkeit etc.:
+    ' -- Globale Variablen sind tendenziell unschön - bspw. eine Klasse alternativ?
     Dim G_min As Integer  'Mindestgröße eines Hindernisblocks 
     Dim G_max As Integer 'Maximalgröße eines Hindernisblocks 
     Dim Einstellung As String 'Variable zur Speicherung der Schwierigkeitsstufe
@@ -53,8 +56,10 @@ Module Module1
         Dim cki As New ConsoleKeyInfo()
         If Console.KeyAvailable = False Then
             Return NO_KEY
+            ' -- Das Else ist unnötig - das If returned sowieso
         Else
             cki = Console.ReadKey(True)
+            ' -- Switch Case verwenden
             If cki.Key = ConsoleKey.LeftArrow Then
                 Return CURSOR_LEFT
             ElseIf cki.Key = ConsoleKey.RightArrow Then
@@ -89,6 +94,7 @@ Module Module1
 
     'Prozedur zur Erzeugung einer neuen Zeile von Hindernissen
     Sub ErzeugeZeile(ByRef Zeile() As Char, ByVal a_max As Integer)
+        ' -- Die Variablen Namen sind nicht aussagekräffitg
         Dim x As Single                 'Zufallszahl
         Dim A As Integer                'Anzahl der Hindernisblocks
         Dim i As Integer                'Laufvariable 
@@ -102,6 +108,9 @@ Module Module1
         Next
 
         'Festlegung der Hindernisgrößen basierend auf der Schwierigkeitseinstellung
+        ' -- Hier auch switch case
+        ' -- Die Schwierigkeit hier als String abzufragen ist nicht schön
+        ' -- "Einstellung" ist kein guter Name, da das alles heißen könnte
         If Einstellung = "einfach" Then
             G_min = 1
             G_max = 1
@@ -114,6 +123,7 @@ Module Module1
         End If
 
         'Anzahl A der Hindernisblocks zufällig festlegen:
+        ' -- Hier sieht man die Problematik der unaussagekräftigen Variablennamen
         x = VBMath.Rnd
         A = (a_max - A_MIN) * x + A_MIN
 
@@ -141,6 +151,7 @@ Module Module1
 
     'Prozedur zur Erzeugung eines Herzens in der Zeile
     Sub ErzeugeHerz(ByRef Zeile() As Char)
+        ' -- Unaussagekräftige Variablennamen
         Dim P As Integer                'Startposition des Herz
         Dim x As Single                 'Zufallszahl
         'Startposition des Herzen zufällig festlegen:
@@ -202,9 +213,15 @@ Module Module1
             End If
         Next
     End Sub
+    ' -- Die Funktionen Erzeuge2Punkte und Erzeuge5Punkte und ErzeugeSchussDrop sind quasi gleich - es wäre besser die
+    ' -- zusammenzufassen und statdessen die Zahl als Parameter zu übergeben
+
 
     'Hauptprozedur für den Spielablauf
     Sub Spielablauf()
+        ' -- Wenn euer Prof das so gemacht hat, dann würde ich die Variablen auch weiterhin oben deklarieren
+        ' -- Jedoch würde ich das bei Laufvariablen trotzdem nicht machen - da ist es wirklich sehr sehr unschön
+        ' -- Konsistent bei variablen Namen! Bspw. sollte Zähler nicht groß sein
         Dim leben1 As Integer               'Anzahl der verbleibenden Leben für Spieler 1
         Dim leben2 As Integer               'Anzahl der verbleibenden Leben für Spieler 2 (Multiplayer)
         Dim s, z As Integer                 'Laufvariablen für Spalte und Zeile 
@@ -224,6 +241,7 @@ Module Module1
 
         'Startwerte setzen:
         'Wenn Charakter Yoda 5 Leben
+        ' -- Die Charactere hier als Strings zu Hardcoden ist unschön
         If Charakter = "Yoda" Then
             leben1 = 5
             leben2 = 5
@@ -246,12 +264,15 @@ Module Module1
             spielfigur_2z = ZEILE_MAX
         End If
 
+        ' -- Die Variablen hier zu initialisieren ist unschön, lieber direkt oben
         wartezeit = 500                     'Initiale Wartezeit
         a_max = 5                           'Initiale maximale Anzahl der Hindernisse
         Score = -200                        'Initialer Score damit wenn Hindernisse unten bei Spielfigur sind Score = 0 ist
         Zaehler = 0                         'Zähler, der pro Runde erhöht wird um die Gadgets alle paar Zeilen erscheinen zu lassen
         schusszähler = 4                    'Zählt die verfügbaren Schüsse des Spielers
 
+
+        ' -- Dateinamen sind auch inkonsistent was Groß- und Kleinschreibung angeht
         My.Computer.Audio.Play("Imperial March.wav", AudioPlayMode.BackgroundLoop)          'Hintergrundmusik
 
         'Hauptschleife des Spiels:
@@ -259,6 +280,8 @@ Module Module1
             'Neue Hinderniszeile erzeugen:
             Call ErzeugeZeile(Zeile, a_max)
 
+
+            '-- Wie wäre es hier die Gadgets etwas mehr random zu erzugen?
             'Gadgets:
 
             'Neue Herzen alle drei Zeilen erzeugen:
@@ -298,8 +321,10 @@ Module Module1
             'Spielfeld auf der Konsole ausgeben:
             Console.SetCursorPosition(0, 0)
             'Farben der Gadgets ändern:
+            ' -- Das Hardcoding der Symbole ist unschön
             For z = 0 To 23
                 For s = 0 To SPALTE_MAX
+                    ' -- Hier switch case
                     If spielfeld(z, s) = "|" Then
                         Console.ForegroundColor = ConsoleColor.DarkYellow
                     ElseIf spielfeld(z, s) = "2" Then
@@ -340,6 +365,7 @@ Module Module1
                 taste = Tastatur_Abfrage()
 
                 'Position der Spielfigur berechnen:
+                ' -- Hier switch case
                 If taste = CURSOR_LEFT Then
                     spielfigur_1s = spielfigur_1s - 1
                     If spielfigur_1s < 0 Then spielfigur_1s = 0
@@ -380,6 +406,7 @@ Module Module1
                     If spielfigur_2s > SPALTE_MAX Then spielfigur_2s = SPALTE_MAX
                 End If
 
+                ' -- TODO: Angucken
                 'Spielfigur auf der Konsole ausgeben (Singleplayer):
                 If Multiplayer = 0 Then
                     Console.SetCursorPosition(spielfigur_1s, spielfigur_1z)
@@ -419,6 +446,7 @@ Module Module1
                     spielfeld(spielfigur_1z - 1, spielfigur_1s) = " "
                 End If
                 'Kann der Spieler einen Schuss abfeuern:
+                ' -- Sehr tief geschachtelt ab hier - weiß noch nicht ob mans einfach ändern kann
                 If schusszähler >= 1 Then
                     If taste = KEY_SPACE Then
                         Console.ForegroundColor = ConsoleColor.Blue
@@ -440,6 +468,7 @@ Module Module1
                         'Schüsse nach abfeuern um 1 reduzieren:
                         schusszähler = schusszähler - 1
                         'Kollisionsprüfung nach russischer Methode:
+                        ' -- Switch Case
                         If spielfeld(spielfigur_1z - 1, spielfigur_1s) = "■" Then
                             spielfeld(spielfigur_1z - 1, spielfigur_1s) = " "
                         End If
@@ -477,6 +506,7 @@ Module Module1
                     My.Computer.Audio.Play("Wartemusik.wav", AudioPlayMode.BackgroundLoop)
                     Console.ForegroundColor = ConsoleColor.DarkYellow
                     Console.SetCursorPosition(0, 10)
+                    ' -- Text in Textdateien auslagern - Parhmi war der Meinung, dass das bei eurem Prof nicht gut ankommt im Code
                     Console.WriteLine("                                         Das Spiel ist pausiert")
                     Console.WriteLine("                                      P drücken um weiterzuspielen")
                     Do
@@ -484,6 +514,7 @@ Module Module1
                     Loop Until taste = KEY_P
                     Console.Clear()
                     If Charakter = "Yoda" Then
+                        ' -- Imperial March bei beiden?
                         My.Computer.Audio.Play("Imperial March.wav", AudioPlayMode.BackgroundLoop)
                     ElseIf Charakter = "Darth Vader" Then
                         My.Computer.Audio.Play("Imperial March.wav", AudioPlayMode.BackgroundLoop)
@@ -491,6 +522,8 @@ Module Module1
                 End If
 
                 'Kollisionprüfung 1. Spieler (auch Singleplayer):
+                ' -- Kollisionsprüfungen ist 2mal das gleiche, in Funktion
+                ' -- Switch Case
                 If spielfeld(spielfigur_1z, spielfigur_1s) = "■" Then
                     My.Computer.Audio.Play("Tod.wav", AudioPlayMode.WaitToComplete)
                     My.Computer.Audio.Play("Imperial March.wav", AudioPlayMode.BackgroundLoop)

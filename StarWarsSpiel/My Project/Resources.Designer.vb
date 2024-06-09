@@ -59,5 +59,403 @@ Namespace My.Resources
                 resourceCulture = value
             End Set
         End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property _8bit_sample_69080() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("_8bit_sample_69080", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to                                             === Anleitung ===
+        '''
+        '''
+        '''  Ziel des Spiels: Versuche so lange wie möglich den herunterkommenden Hindernissen
+        '''                   mit deiner Spielfigur auszuweichen. Dabei wird dein Score am unteren Spielfeldrand angezeigt.
+        '''                   Du kannst deine Figur dabei nach rechts, links und begrenzt nach oben und unten bewegen.
+        '''
+        '''
+        '''        Spielmodi: Es gibt drei verschiedene Spielmodi, einfach (Jüngling), mittel (Meister)
+        '''                   und schwer (Großmeis [rest of string was truncated]&quot;;.
+        '''</summary>
+        Friend ReadOnly Property Anleitung1() As String
+            Get
+                Return ResourceManager.GetString("Anleitung1", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to                                             === Anleitung ===
+        '''
+        '''
+        '''          Gadgets: In jeder Zeile erscheinen, neben der Hindernisse, zusätzliche Gadgets welche dir durchaus
+        '''                   Vorteile bringen können. Aber sei gewarnt! Die Gadgets können auch inmitten eines Hindernis
+        '''                   erscheinen. Es gibt dabei bei vier verschiede Gadgets:
+        '''
+        '''
+        '''              &apos;2&apos;: Durch das Berühren der &apos;2&apos; wird dein aktueller Score mit 2 multipliziert.
+        '''
+        '''              &apos;5&apos;: Durch das Berühren der &apos;5&apos; wi [rest of string was truncated]&quot;;.
+        '''</summary>
+        Friend ReadOnly Property Anleitung2() As String
+            Get
+                Return ResourceManager.GetString("Anleitung2", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property Applaus() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Applaus", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property BattleOfTheHeroes() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("BattleOfTheHeroes", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property Blaster() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Blaster", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to                             Wähle einen Charakter mit dem du Spielen willst.
+        '''                      Tippe die jeweilige Zahl ein und drücke anschließend &apos;ENTER&apos;.
+        '''
+        '''                    Yoda (1)                                              Darth Vader (2)
+        '''
+        '''        Yoda benutzt den Millenium Falcon                 Darth Vader benutzt seinen eigenen TIE-Fighter
+        '''
+        '''                                    __________________________________
+        '''                                    |:                           ``::%H|
+        ''' [rest of string was truncated]&quot;;.
+        '''</summary>
+        Friend ReadOnly Property CharakterAuswahl() As String
+            Get
+                Return ResourceManager.GetString("CharakterAuswahl", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property DarthVader() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("DarthVader", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to                            GUTE WAHL! WIR WERDEN FRIEDRICHSHAFEN VERNICHTEN!
+        '''                                               
+        '''                                                .-.
+        '''                                               |_:_|
+        '''                                              /(_Y_)\
+        '''                                            ( \/ M \/ )
+        '''                           .               _.*-/*-*\-*._
+        '''                             :           _/.--`[[[[]`--.\_
+        '''                               :        /_`  : | [rest of string was truncated]&quot;;.
+        '''</summary>
+        Friend ReadOnly Property DarthVader1() As String
+            Get
+                Return ResourceManager.GetString("DarthVader1", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to                           _  _____                         ____                 _
+        '''                         | |/ ____|                       / __ \               | |
+        '''                         | | |  __  __ _ _ __ ___   ___  | |  | |_   _____ _ __| |
+        '''                         | | | |_ |/ _` | &apos;_ ` _ \ / _ \ | |  | \ \ / / _ \ &apos;__| |
+        '''                         |_| |__| | (_| | | | | | |  __/ | |__| |\ V /  __/ |  |_|
+        '''                         (_)\_____|\__,_|_| |_| |_|\___|  \____/  \_/ \___|_|  (_).
+        '''</summary>
+        Friend ReadOnly Property GameOver() As String
+            Get
+                Return ResourceManager.GetString("GameOver", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to             Wähle eine Option aus indem du mit den Cursor-Tasten den Cursor nach oben oder unten bewegst.
+        '''                        Sobald du dich für eine Option Entschieden hast drücke &apos;Enter&apos;
+        '''
+        '''                                                 ( ) Spielen
+        '''                  ,_~````~-,                     ( ) Anleitung
+        '''                 .&apos;(_)------`,                   ( ) Scoreboard
+        '''                 |===========|                   ( ) Charakter/ Spieleranzahl ändern
+        '''                 `,---------,&apos;         [rest of string was truncated]&quot;;.
+        '''</summary>
+        Friend ReadOnly Property Hauptmenue() As String
+            Get
+                Return ResourceManager.GetString("Hauptmenue", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to &quot;0&quot;,&quot;&quot;,&quot;Yoda&quot;,&quot;&quot;
+        '''&quot;710&quot;,&quot;Simon&quot;,&quot;Yoda&quot;,&quot;&quot;
+        '''&quot;710&quot;,&quot;Simon&quot;,&quot;Yoda&quot;,&quot;&quot;
+        '''&quot;710&quot;,&quot;Simon2&quot;,Yoda,&quot;&quot;
+        '''&quot;810&quot;,&quot;Simon&quot;,Yoda,&quot;&quot;
+        '''&quot;110&quot;,&quot;Simon6&quot;,Yoda,&quot;&quot;
+        '''&quot;210&quot;,&quot;Simon&quot;,Yoda,&quot;Mittel&quot;
+        '''&quot;510&quot;,&quot;Simon9&quot;,&quot;Darth Vader&quot;,&quot;Schwer&quot;
+        '''&quot;810&quot;,&quot;Komischer Typ&quot;,&quot;Yoda&quot;,&quot;Leicht&quot;
+        '''&quot;400&quot;,&quot;Luke&quot;,&quot;Yoda&quot;,&quot;0&quot;
+        '''&quot;330&quot;,&quot;&quot;,&quot;Yoda&quot;,&quot;Einfach&quot;
+        '''.
+        '''</summary>
+        Friend ReadOnly Property highscore() As String
+            Get
+                Return ResourceManager.GetString("highscore", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to   Danke. Bevor es losgeht ein Hinweis. Es gibt einzelne Soundeffekte und Überblendungen zwischen den Sequenzen.
+        '''        Während allen Soundeffekten (ausgenommen der Hintergrundmusik) solltest du keine Tasten drücken,
+        '''     da diese sonst erst verzögert angezeigt werden. Warte also immer bis du einen Cursor siehst oder eine 
+        '''                            andere Aufforderung erhälst, wie zum Beispiel jetzt! ;)
+        '''
+        '''                             Drücke eine beliebige Taste um das Spiel zu starten..
+        '''</summary>
+        Friend ReadOnly Property Hinweis() As String
+            Get
+                Return ResourceManager.GetString("Hinweis", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property ImperialMarch() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("ImperialMarch", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to                                     Es war einmal vor langer Zeit
+        '''                                    In einer weit weit entfernten Galaxis...
+        '''.
+        '''</summary>
+        Friend ReadOnly Property Intro1() As String
+            Get
+                Return ResourceManager.GetString("Intro1", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to                               .               .    .          .              .   .         .
+        '''                                _________________      ____         __________
+        '''                  .       .    /                 |    /    \    .  |          \
+        '''                      .       /    ______   _____| . /      \      |    ___    |     .     .
+        '''                              \    \    |   |       /   /\   \     |   |___&gt;   |
+        '''                            .  \    \   |   |      /   /__\   \  . |         _/   [rest of string was truncated]&quot;;.
+        '''</summary>
+        Friend ReadOnly Property Intro2() As String
+            Get
+                Return ResourceManager.GetString("Intro2", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to                            .___________. _______  __   __               ___   ___
+        '''                           |           ||   ____||  | |  |              \  \ /  /
+        '''                           `---|  |----`|  |__   |  | |  |               \  V  /
+        '''                               |  |     |   __|  |  | |  |                &gt;   &lt;
+        '''                               |  |     |  |____ |  | |  `----.          /  .  \
+        '''                               |__|     |_______||__| |_______|         /__/ \__\.
+        '''</summary>
+        Friend ReadOnly Property Intro3() As String
+            Get
+                Return ResourceManager.GetString("Intro3", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to                        ____       _     _            _     _       _   _ _
+        '''                      / ___|  ___| |__ | | __ _  ___| |__ | |_    (_) (_) |__   ___ _ __
+        '''                      \___ \ / __| &apos;_ \| |/ _` |/ __| &apos;_ \| __|   | | | | &apos;_ \ / _ \ &apos;__|
+        '''                      _)  | (__| | | | | (_| | (__| | | | |_  |   |_| | |_) | | __/ | |
+        '''                   ___|____/ \___|_| |_|_|\__,_|\___|_| |_|\__|    \__,_|_.__/ \___|_|
+        '''                  |  ___| __(_) ___  __| |_ __(_) ___| |__  ___| |__   __ _ /  [rest of string was truncated]&quot;;.
+        '''</summary>
+        Friend ReadOnly Property Intro4() As String
+            Get
+                Return ResourceManager.GetString("Intro4", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property Jedi() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Jedi", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to                                                                   _ .
+        '''                                                             __CL\H--.
+        '''                                                          L__/_\H&apos; \\--_-
+        '''                                                           __L_(=): ]-_ _-- -
+        '''                                                          T__\ /H. //---- -
+        '''                                                              ~^-H--&apos;
+        '''                                                                 `.
+        '''</summary>
+        Friend ReadOnly Property MilleniumFalcon() As String
+            Get
+                Return ResourceManager.GetString("MilleniumFalcon", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to                                      Wie stark bist du in der Macht?
+        '''
+        '''                 .-.                             ( ) Jüngling 
+        '''                &apos;_8_&apos;                            ( ) Meister
+        '''               .| |o|.                           ( ) Großmeister
+        '''               ||___||                           ( ) Zurück zum Hauptmenue
+        '''               |J   L|.
+        '''</summary>
+        Friend ReadOnly Property Schwierigkeit() As String
+            Get
+                Return ResourceManager.GetString("Schwierigkeit", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property Sith() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Sith", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to                          Möchtest du alleine oder den Multiplayer-Modus spielen?
+        '''
+        '''        Wenn du alleine spielen willst drücke (1), für den Multiplayer-Modus die (2) und dann &apos;ENTER&apos;.
+        '''
+        '''                 Sei dir bewusst, dass der Mulitplayer ein Spaßmodus ist und kein Score 
+        '''            im Scoreboard gespeichert wird. Es gewinnt lediglich derjenige, der länger überlebt! 
+        '''
+        '''                                                  -&gt;    .
+        '''</summary>
+        Friend ReadOnly Property Spieleranzahl() As String
+            Get
+                Return ResourceManager.GetString("Spieleranzahl", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property StarWars() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("StarWars", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property TieFighter() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("TieFighter", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to                                                               / _  _ \
+        '''                                                             |=(_)(_)=|
+        '''                                                              \   *  /.
+        '''</summary>
+        Friend ReadOnly Property TieFighter1() As String
+            Get
+                Return ResourceManager.GetString("TieFighter1", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property Tiping() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Tiping", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property Tod() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Tod", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property Vader2() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Vader2", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property Wartemusik() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Wartemusik", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property Yoda() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("Yoda", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to                                TU ES! WIR MÜSSEN FRIEDRICHSHAFEN RETTEN!
+        '''
+        '''                                                 ____
+        '''                                              _.&apos; :  `._
+        '''                                          .-.&apos;`.  ;   .&apos;`.-.
+        '''                                 __      / : ___\ ;  /___ ; \      __
+        '''                               ,&apos;_ ``--.:__;``.- .`;: :`.-.`:__;.--`` _`,
+        '''                               :&apos; `.t``--.. &apos;&lt;@.`;_  &apos;,@&gt;` ..--``j.&apos; `;
+        '''                                    `:-.._ [rest of string was truncated]&quot;;.
+        '''</summary>
+        Friend ReadOnly Property Yoda1() As String
+            Get
+                Return ResourceManager.GetString("Yoda1", resourceCulture)
+            End Get
+        End Property
     End Module
 End Namespace

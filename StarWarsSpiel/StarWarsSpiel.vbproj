@@ -14,6 +14,21 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -24,6 +39,8 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DocumentationFile>StarWarsSpiel.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -50,6 +67,9 @@
   <PropertyGroup>
     <ApplicationIcon>TieFighter.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -72,7 +92,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Eigenschaften.vb" />
+    <Compile Include="Konstanten.vb" />
     <Compile Include="Main.vb" />
+    <Compile Include="ScoreboardLogik.vb" />
+    <Compile Include="Spiel.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -89,6 +113,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Sound.vb" />
+    <Compile Include="SpielElemente.vb" />
+    <Compile Include="TextAusgabe.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -99,6 +126,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -111,7 +139,51 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="resources\highscore.csv" />
+    <None Include="resources\Sounds\8bit-sample-69080.wav" />
+    <None Include="resources\Sounds\Applaus.wav" />
+    <None Include="resources\Sounds\BattleOfTheHeroes.wav" />
+    <None Include="resources\Sounds\Blaster.wav" />
+    <None Include="resources\Sounds\DarthVader.wav" />
+    <None Include="resources\Sounds\ImperialMarch.wav" />
+    <None Include="resources\Sounds\Jedi.wav" />
+    <None Include="resources\Sounds\Sith.wav" />
+    <None Include="resources\Sounds\StarWars.wav" />
+    <None Include="resources\Sounds\TieFighter.wav" />
+    <None Include="resources\Sounds\Tiping.wav" />
+    <None Include="resources\Sounds\Tod.wav" />
+    <None Include="resources\Sounds\Vader2.wav" />
+    <None Include="resources\Sounds\Wartemusik.wav" />
+    <None Include="resources\Sounds\Yoda.wav" />
+    <None Include="resources\TextElemente\Anleitung1.txt" />
+    <None Include="resources\TextElemente\Anleitung2.txt" />
+    <None Include="resources\TextElemente\CharakterAuswahl.txt" />
+    <None Include="resources\TextElemente\DarthVader.txt" />
+    <None Include="resources\TextElemente\GameOver.txt" />
+    <None Include="resources\TextElemente\Hauptmenue.txt" />
+    <None Include="resources\TextElemente\Hinweis.txt" />
+    <None Include="resources\TextElemente\Intro1.txt" />
+    <None Include="resources\TextElemente\Intro2.txt" />
+    <None Include="resources\TextElemente\Intro3.txt" />
+    <None Include="resources\TextElemente\Intro4.txt" />
+    <None Include="resources\TextElemente\MilleniumFalcon.txt" />
+    <None Include="resources\TextElemente\Schwierigkeit.txt" />
+    <None Include="resources\TextElemente\Spieleranzahl.txt" />
+    <None Include="resources\TextElemente\TieFighter.txt" />
+    <None Include="resources\TextElemente\Yoda.txt" />
     <Content Include="TieFighter.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

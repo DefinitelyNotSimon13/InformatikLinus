@@ -1,0 +1,8 @@
+                         Möchtest du alleine oder den Multiplayer-Modus spielen?
+
+        Wenn du alleine spielen willst drücke (1), für den Multiplayer-Modus die (2) und dann 'ENTER'.
+
+                 Sei dir bewusst, dass der Mulitplayer ein Spaßmodus ist und kein Score 
+            im Scoreboard gespeichert wird. Es gewinnt lediglich derjenige, der länger überlebt! 
+
+                                                  ->    

@@ -1,0 +1,20 @@
+                            Wähle einen Charakter mit dem du Spielen willst.
+                      Tippe die jeweilige Zahl ein und drücke anschließend 'ENTER'.
+
+                    Yoda (1)                                              Darth Vader (2)
+
+        Yoda benutzt den Millenium Falcon                 Darth Vader benutzt seinen eigenen TIE-Fighter
+
+                                    __________________________________
+                                    |:                           ``::%H|
+                                    |%:.       Starfighters         `:%|
+                                    |H%::..___________________________:|
+                     _ .                                                     
+                  __CL\H--.                                                 
+                L__/_\H' \\--_-                                               / _  _ \
+                __L_(=): ]-_ _-- -                ->                         |=(_)(_)=|
+                T__\ /H. //---- -                                             \   *  /
+                     ~^-H--' 
+                       *
+
+   Für Infos über die Starfighter drücke (3) für Daten über den Millenium Falcon und (4) für den Tie-Fighter.

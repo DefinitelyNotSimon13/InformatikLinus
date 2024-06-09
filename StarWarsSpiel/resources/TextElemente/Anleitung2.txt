@@ -1,0 +1,23 @@
+                                            === Anleitung ===
+
+
+          Gadgets: In jeder Zeile erscheinen, neben der Hindernisse, zusätzliche Gadgets welche dir durchaus
+                   Vorteile bringen können. Aber sei gewarnt! Die Gadgets können auch inmitten eines Hindernis
+                   erscheinen. Es gibt dabei bei vier verschiede Gadgets:
+
+
+              '2': Durch das Berühren der '2' wird dein aktueller Score mit 2 multipliziert.
+
+              '5': Durch das Berühren der '5' wird deinem aktuellen Score 5 dazu addiert.
+
+              '|': Durch das Berühren des 'S' Kannst du einen Schuss abfeuern. Drücke dafür die Leertaste.
+                   Unter dem Score werden dir deine restlichen Schüsse angezeigt. Ein Schuss ist dabei je
+                   nach Charakter in der Weite begrenzt, durchtrifft aber alles was ihm in den Weg kommt.
+                   Wie weit der jeweilige Charakter schießen kann, entnimmst du aus den Daten im Auswahl-Menü
+                   Sei dir bewusst, dass im Multiplayer kein Schuss verfügbar ist.
+
+              '♥': Durch Kontakt mit dem Herzen erhälst du ein Leben mehr. Diese werden die am unteren 
+                   Bildschirmrand angezeigt.")
+
+                                                     '2'
+                Drücke eine beliebige Taste, um in das Hauptmenü zurück zu kommen.

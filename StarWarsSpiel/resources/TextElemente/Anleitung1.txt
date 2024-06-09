@@ -1,0 +1,22 @@
+                                            === Anleitung ===
+
+
+  Ziel des Spiels: Versuche so lange wie möglich den herunterkommenden Hindernissen
+                   mit deiner Spielfigur auszuweichen. Dabei wird dein Score am unteren Spielfeldrand angezeigt.
+                   Du kannst deine Figur dabei nach rechts, links und begrenzt nach oben und unten bewegen.
+
+
+        Spielmodi: Es gibt drei verschiedene Spielmodi, einfach (Jüngling), mittel (Meister)
+                   und schwer (Großmeister). Da du nach jeder Runde zurück ins Hauptmenü kommst, kannst
+                   du den Spielmodus jederzeit ändern.
+
+
+            Pause: Es gibt die Möglichkeit das Spiel zu pausieren.
+                   Drücke einfach die Taste 'P' auf der Tastatur.
+
+
+      Multiplayer: Beim Mutliplayer wird der Score nicht gespeichert. Spieler '1' steuert
+                   seine Figur über die Cursor-Tasten, Spieler '2' über die 'WASD'-Tasten.
+
+                                                     '1'
+                Drücke eine beliebige Taste, um auf die Zweite Seite der Anleitung zu kommen.

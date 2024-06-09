@@ -1,0 +1,6 @@
+  Danke. Bevor es losgeht ein Hinweis. Es gibt einzelne Soundeffekte und Überblendungen zwischen den Sequenzen.
+        Während allen Soundeffekten (ausgenommen der Hintergrundmusik) solltest du keine Tasten drücken,
+     da diese sonst erst verzögert angezeigt werden. Warte also immer bis du einen Cursor siehst oder eine 
+                            andere Aufforderung erhälst, wie zum Beispiel jetzt! ;)
+
+                             Drücke eine beliebige Taste um das Spiel zu starten.

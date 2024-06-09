@@ -1,0 +1,10 @@
+            Wähle eine Option aus indem du mit den Cursor-Tasten den Cursor nach oben oder unten bewegst.
+                        Sobald du dich für eine Option Entschieden hast drücke 'Enter'
+
+                                                 ( ) Spielen
+                  ,_~````~-,                     ( ) Anleitung
+                 .'(_)------`,                   ( ) Scoreboard
+                 |===========|                   ( ) Charakter/ Spieleranzahl ändern
+                 `,---------,'                   ( ) Namen ändern
+                   ~-.___.-~                     ( ) Credits
+                                                 ( ) Spiel schließen

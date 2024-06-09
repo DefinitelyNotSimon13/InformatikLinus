@@ -404,7 +404,7 @@ Module Main
         Console.ForegroundColor() = ConsoleColor.Red
         Console.SetCursorPosition(0, 2)
         GebeTextElementAus("DarthVader")
-        SpieleTonImHintergrundAb("DarthVader")
+        SpieleTonUndDanachSchleife("DarthVader", "Sith")
         Thread.Sleep(1000)
         Console.Clear()
         OeffneSpieleranzahlAuswahl()
@@ -414,7 +414,8 @@ Module Main
         Console.ForegroundColor = ConsoleColor.Green
         Console.SetCursorPosition(0, 7)
         GebeTextElementAus("Yoda")
-        SpieleTonImHintergrundAb("Yoda")
+        SpieleTonUndDanachSchleife("Yoda", "Jedi")
+        Thread.Sleep(1000)
         Console.Clear()
         OeffneSpieleranzahlAuswahl()
     End Sub

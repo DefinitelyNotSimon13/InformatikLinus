@@ -11,6 +11,9 @@
 '   - TextAusgabe - Laden von Textblöcken aus Dateien und wiedergeben von verzögerten 
 ' - Auslagerung der meisten Textblöcke in .txt Dateien
 '
+' Bei mir passiert es ab und zu, dass Texte nicht angezeigt werden, die Größe der Konsole leicht zu ändern fixt das
+' Ich habe keine Ahnung warum das passiert.
+'
 ' Mit Änderung von einigen Variablen Namen haben sich meiner Meinung nach viele Kommentare erspart.
 ' Falls du stellen hast, die du nicht verstehst oder so, kann ich da noch welche hinzufügen
 '
@@ -23,14 +26,21 @@ Module Main
     ' -- Nach Oben Bewegt für Übersicht
     Sub Main()
         Console.BackgroundColor = ConsoleColor.Black
-        Console.SetWindowSize(115, 300)
+
+        ' -- Bei mir geht die Größe einfach nicht...
+        Console.WindowWidth = 115
+        Console.WindowHeight = 300
+
+        Console.BufferWidth = Console.WindowWidth
+        Console.BufferHeight = Console.WindowHeight
+
         Console.Clear()
         Console.CursorVisible = False
 
-        'GebeLadebalkenAus()
-        'GebeNamenEin()
-        'GebeVorspannAus()
-        'GebeEroeffnungsTextAus()
+        GebeLadebalkenAus()
+        GebeNamenEin()
+        GebeVorspannAus()
+        GebeEroeffnungsTextAus()
         OeffneCharakterAuswahl(True)
 
         Console.ReadLine()

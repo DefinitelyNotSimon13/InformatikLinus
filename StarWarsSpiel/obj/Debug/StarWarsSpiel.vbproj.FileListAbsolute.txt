@@ -1,14 +1,3 @@
-C:\Users\Clean\Documents\InformatikLinus\Spielentwurf Semester 2\obj\Debug\StarWarsSpiel.vbproj.AssemblyReference.cache
-C:\Users\Clean\Documents\InformatikLinus\Spielentwurf Semester 2\obj\Debug\StarWarsSpiel.vbproj.GenerateResource.cache
-C:\Users\Clean\Documents\InformatikLinus\Spielentwurf Semester 2\obj\Debug\StarWarsSpiel.vbproj.CoreCompileInputs.cache
-C:\Users\Clean\Documents\InformatikLinus\Spielentwurf Semester 2\bin\Debug\StarWarsSpiel.exe.config
-C:\Users\Clean\Documents\InformatikLinus\Spielentwurf Semester 2\bin\Debug\StarWarsSpiel.exe
-C:\Users\Clean\Documents\InformatikLinus\Spielentwurf Semester 2\bin\Debug\StarWarsSpiel.pdb
-C:\Users\Clean\Documents\InformatikLinus\Spielentwurf Semester 2\bin\Debug\StarWarsSpiel.xml
-C:\Users\Clean\Documents\InformatikLinus\Spielentwurf Semester 2\obj\Debug\StarWarsSpiel.Resources.resources
-C:\Users\Clean\Documents\InformatikLinus\Spielentwurf Semester 2\obj\Debug\StarWarsSpiel.exe
-C:\Users\Clean\Documents\InformatikLinus\Spielentwurf Semester 2\obj\Debug\StarWarsSpiel.xml
-C:\Users\Clean\Documents\InformatikLinus\Spielentwurf Semester 2\obj\Debug\StarWarsSpiel.pdb
 C:\Users\Clean\Documents\InformatikLinus\StarWarsSpiel\bin\Debug\StarWarsSpiel.exe.config
 C:\Users\Clean\Documents\InformatikLinus\StarWarsSpiel\bin\Debug\StarWarsSpiel.exe
 C:\Users\Clean\Documents\InformatikLinus\StarWarsSpiel\bin\Debug\StarWarsSpiel.pdb

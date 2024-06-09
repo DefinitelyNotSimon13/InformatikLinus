@@ -3,42 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Clean\\Documents\\InformatikLinus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|StarWarsSpiel||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|c:\\users\\clean\\documents\\informatiklinus\\starwarsspiel\\textausgabe.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|C:\\Users\\Clean\\Documents\\InformatikLinus\\starwarsspiel\\textausgabe.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|solutionrelative:starwarsspiel\\textausgabe.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|c:\\users\\clean\\documents\\informatiklinus\\starwarsspiel\\spielelemente.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|C:\\Users\\Clean\\Documents\\InformatikLinus\\starwarsspiel\\spielelemente.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|solutionrelative:starwarsspiel\\spielelemente.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|c:\\users\\clean\\documents\\informatiklinus\\starwarsspiel\\spiel.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|solutionrelative:starwarsspiel\\spiel.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|c:\\users\\clean\\documents\\informatiklinus\\starwarsspiel\\scoreboardlogik.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|solutionrelative:starwarsspiel\\scoreboardlogik.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|c:\\users\\clean\\documents\\informatiklinus\\starwarsspiel\\main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|C:\\Users\\Clean\\Documents\\InformatikLinus\\starwarsspiel\\main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|solutionrelative:starwarsspiel\\main.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|c:\\users\\clean\\documents\\informatiklinus\\starwarsspiel\\sound.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|C:\\Users\\Clean\\Documents\\InformatikLinus\\starwarsspiel\\spiel.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|solutionrelative:starwarsspiel\\spiel.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|C:\\Users\\Clean\\Documents\\InformatikLinus\\starwarsspiel\\scoreboardlogik.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|solutionrelative:starwarsspiel\\scoreboardlogik.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|C:\\Users\\Clean\\Documents\\InformatikLinus\\starwarsspiel\\sound.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|solutionrelative:starwarsspiel\\sound.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|c:\\users\\clean\\documents\\informatiklinus\\starwarsspiel\\eigenschaften.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|C:\\Users\\Clean\\Documents\\InformatikLinus\\starwarsspiel\\eigenschaften.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|solutionrelative:starwarsspiel\\eigenschaften.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|c:\\users\\clean\\documents\\informatiklinus\\starwarsspiel\\konstanten.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|C:\\Users\\Clean\\Documents\\InformatikLinus\\starwarsspiel\\konstanten.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|solutionrelative:starwarsspiel\\konstanten.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C0BAB5D-62D4-41C3-9C66-440C79F4EB99}|StarWarsSpiel\\StarWarsSpiel.vbproj|c:\\users\\clean\\documents\\informatiklinus\\starwarsspiel\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|984ae51a-4b21-44e7-822c-dd5e046893ef"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,31 +47,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StarWarsSpiel",
-              "DocumentMoniker": "C:\\Users\\Clean\\Documents\\InformatikLinus\\StarWarsSpiel\\StarWarsSpiel.vbproj",
-              "RelativeDocumentMoniker": "StarWarsSpiel\\StarWarsSpiel.vbproj",
-              "ToolTip": "C:\\Users\\Clean\\Documents\\InformatikLinus\\StarWarsSpiel\\StarWarsSpiel.vbproj",
-              "RelativeToolTip": "StarWarsSpiel\\StarWarsSpiel.vbproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-09T16:10:02.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "TextAusgabe.vb",
               "DocumentMoniker": "C:\\Users\\Clean\\Documents\\InformatikLinus\\StarWarsSpiel\\TextAusgabe.vb",
               "RelativeDocumentMoniker": "StarWarsSpiel\\TextAusgabe.vb",
               "ToolTip": "C:\\Users\\Clean\\Documents\\InformatikLinus\\StarWarsSpiel\\TextAusgabe.vb",
               "RelativeToolTip": "StarWarsSpiel\\TextAusgabe.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAALAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-06-09T16:08:54.064Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "SpielElemente.vb",
               "DocumentMoniker": "C:\\Users\\Clean\\Documents\\InformatikLinus\\StarWarsSpiel\\SpielElemente.vb",
               "RelativeDocumentMoniker": "StarWarsSpiel\\SpielElemente.vb",
@@ -98,12 +80,11 @@
               "RelativeToolTip": "StarWarsSpiel\\Spiel.vb",
               "ViewState": "AQIAAC8BAAAAAAAAAAAqwEoBAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-09T15:53:28.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T15:53:28.455Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Sound.vb",
               "DocumentMoniker": "C:\\Users\\Clean\\Documents\\InformatikLinus\\StarWarsSpiel\\Sound.vb",
               "RelativeDocumentMoniker": "StarWarsSpiel\\Sound.vb",
@@ -111,8 +92,7 @@
               "RelativeToolTip": "StarWarsSpiel\\Sound.vb",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-09T15:53:17.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T15:53:17.932Z"
             },
             {
               "$type": "Document",
@@ -124,12 +104,11 @@
               "RelativeToolTip": "StarWarsSpiel\\ScoreboardLogik.vb",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-09T15:51:36.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T15:51:36.468Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Konstanten.vb",
               "DocumentMoniker": "C:\\Users\\Clean\\Documents\\InformatikLinus\\StarWarsSpiel\\Konstanten.vb",
               "RelativeDocumentMoniker": "StarWarsSpiel\\Konstanten.vb",
@@ -137,12 +116,11 @@
               "RelativeToolTip": "StarWarsSpiel\\Konstanten.vb",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-09T15:47:36.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T15:47:36.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Eigenschaften.vb",
               "DocumentMoniker": "C:\\Users\\Clean\\Documents\\InformatikLinus\\StarWarsSpiel\\Eigenschaften.vb",
               "RelativeDocumentMoniker": "StarWarsSpiel\\Eigenschaften.vb",
@@ -150,18 +128,17 @@
               "RelativeToolTip": "StarWarsSpiel\\Eigenschaften.vb",
               "ViewState": "AQIAABIAAAAAAAAAAAA8wAAAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-09T15:43:12.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T15:43:12.61Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Main.vb",
               "DocumentMoniker": "C:\\Users\\Clean\\Documents\\InformatikLinus\\StarWarsSpiel\\Main.vb",
               "RelativeDocumentMoniker": "StarWarsSpiel\\Main.vb",
               "ToolTip": "C:\\Users\\Clean\\Documents\\InformatikLinus\\StarWarsSpiel\\Main.vb",
               "RelativeToolTip": "StarWarsSpiel\\Main.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABSAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAwA4AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-06-09T15:42:46.835Z",
               "EditorCaption": ""
